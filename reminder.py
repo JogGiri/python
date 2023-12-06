@@ -4,7 +4,7 @@ from plyer import notification
 
 if __name__ == "__main__" :
     def reminder():
-        notification.notify(title ="BR",ticker ='Hi', message = "HS PTAB 20!", timeout =1)
+        notification.notify(title ="Break Notification", message = "Please take a break", timeout =1)
 
 while True:
     reminder()
